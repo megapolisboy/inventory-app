@@ -7,7 +7,7 @@ const GrocerySchema = new mongoose.Schema({
   price: Number,
   numberInStock: Number,
   category: {
-    type: Schema.Types.ObjectId,
+    type: mongoose.Schema.Types.ObjectId,
     ref: "Category",
   },
 });
